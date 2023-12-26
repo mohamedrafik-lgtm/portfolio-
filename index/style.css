@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    transition: 300ms;
+}
+
+a{
+    font-size: 22px;
+    color: black;
+    padding: 15px 20px;
+}
+.nav_content{
+    z-index: 3;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
+}
+a:hover{
+    transition: 300ms;
+    color: white;
+    background-color: blueviolet;
+}
+.list{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin-right:20px ;
+}
+.protfoluo_name{
+    padding: 0px 10px;
+}
+.home{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background: url(img/5184157.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.home-text{
+    text-align: center;
+}
+.home-text h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.home-text p{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.btn-projets{
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+    background-color: blueviolet;
+    color: white;
+    border: 0px;
+}
+.about-me{
+    overflow: hidden;
+    padding: 30px;
+    background-color: #fafafa;
+    
+}
+.title{
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+.title h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.title p{
+    font-size: 22px;
+    margin: 10px;
+}
+.btn-projets:hover{
+    transition: 300ms ;
+    transform: scale(1.1);
+}
+.skills{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.get-to-know-me{
+    width: 40%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.get-to-know-me h3{
+font-size: 30px;
+margin-bottom: 20px;
+}
+.get-to-know-me p{
+opacity: 0.7;
+font-size: 22px;
+}
+.my-skills div {
+    width: 30%;
+}
+.my-skills{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-skills div i{
+    font-size: 50px;
+    display: block;
+    padding: 10px;
+}
+.my-skills div:hover{
+    transition: 300ms;
+    background-color: blueviolet;
+    color: white;
+    transform: scale(1.2);
+}
+.btn-contact{
+    position: relative;
+    left: 200px;
+    width: 200px;
+    height: 70px;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+    border: 0px;
+}
+.btn-contact:hover{
+    transition: 300ms ;
+    transform: scale(1.1);
+}
+.title-project{
+    text-align: center;
+    padding: 50px 0px;
+    width: 100%;
+}
+.title-project h2{
+    font-size: 32px !important;
+    margin-bottom: 30px;
+}
+.title-project p{
+    font-size: 22px;
+    margin: 10px;
+}
+.img{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img div{
+    padding: 0px 15px 15px ;
+}
+.img div:hover{
+    transition: 400ms;
+    transform: scale(0.9);
+}
+.img div img {
+    border-radius: 10px;
+}
+.form{
+width: 100%;
+height: 500px;
+padding: 40px 0px;
+    background: url(img/5184157.jpg);
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    width: 50%;
+    padding: 30px 50px;
+    margin-bottom: 40px;
+}
+.data{
+    background-color: rgba(107, 106, 106, 0.068);
+    border: none;
+    display: block;
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.submit{
+    display: block;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    border: 0px;
+    margin: auto;
+}
+.submit:hover{
+    transition: 300ms ;
+    transform: scale(1.1);
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.about-footer{
+    width: 80%;
+    padding: 20px;
+    line-height:30px;
+}
+.about-footer h2{
+    margin-bottom: 30px;
+}
+.about-footer p{
+    opacity: 0.9;
+    font-size: 16px;
+}
+hr{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.up{
+    position:fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 30px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    background-color:blueviolet ;
+}
+
+
